@@ -1,0 +1,104 @@
+.rightbar {
+    flex: 22%;
+    margin-top: 19px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
+
+.rightbar__container {
+    padding: 15px 25px 25px 25px;
+    .birthdays {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        .birthday__container {
+            margin-top: 10px;
+            display: flex;
+            align-items: flex-start;
+        }
+        h3 {
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        img {
+            height: 40px;
+        }
+        span {
+            font-size: 0.8rem;
+        }
+    }
+    .newsFeed {
+        cursor: pointer;
+        margin-top: 40px;
+        h3 {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+        .newsFeed__section {
+            display: flex;
+            padding: 5px;
+            img {
+                height: 50px;
+                border-radius: 4px;
+            }
+            .newsFeed__details {
+                h5 {
+                    margin-left: 10px;
+                    font-weight: 400;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+    .onlineFriends {
+        cursor: pointer;
+        margin-top: 40px;
+        img {
+            height: 40px;
+            margin-right: 20px;
+        }
+        h3 {
+            font-weight: 500;
+            font-size: 1rem;
+            margin-bottom: 10px;
+        }
+        .person__info {
+            display: flex;
+            // justify-content: start;
+            align-items: center;
+            margin: 20px 0 0 20px;
+            .dot {
+                margin-top: -20px;
+                margin-left: -30px;
+            }
+            h4 {
+                font-weight: 450;
+                color: rgb(66, 66, 66);
+                margin-left: 20px;
+            }
+        }
+    }
+}
+
+.profile__right__bar {
+    h3 {
+        font-weight: 600;
+        font-size: 1.3rem;
+        color: rgb(40, 40, 40);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    h5 {
+        font-weight: 400;
+        font-size: 1rem;
+        color: rgb(105, 105, 105);
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    b {
+        color: rgb(30, 30, 30);
+        font-weight: 500;
+    }
+}

@@ -1,0 +1,82 @@
+.sharePost {
+    background-color: rgb(255, 255, 255);
+    height: 220px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.sharePost__container {
+    padding: 20px;
+    .sharePost__profile {
+        display: flex;
+        align-items: center;
+        img {
+            margin-right: 10px;
+            height: 45px;
+        }
+        h5 {
+            font-weight: 500;
+        }
+    }
+    .shareInput {
+        border: none;
+        width: 100%;
+        height: 60px;
+        font-size: 1rem;
+        margin-top: 15px;
+    }
+    .shareInput:focus {
+        outline: none;
+    }
+    .separator {
+        height: 2px;
+        background: rgb(216, 216, 216);
+        margin-top: 0px;
+        width: 100%;
+    }
+    .sharePost__buttons {
+        display: flex;
+        padding: 0px;
+        padding-top: 8px;
+        margin-top: 8px;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .sharePost__button_container {
+        width: 90%;
+        margin-left: auto;
+        margin: auto;
+        display: flex;
+        align-items: center;
+    }
+    .button {
+        display: flex;
+        cursor: pointer;
+        padding-right: 28px;
+        align-items: center;
+        justify-content: space-around;
+        p {
+            display: flex;
+            margin-left: 5px;
+            font-size: 0.9rem;
+            font-weight: 400;
+            color: rgb(112, 112, 112);
+        }
+        p:hover {
+            color: rgb(0, 0, 0);
+        }
+    }
+    .shareButton {
+        button {
+            border: none;
+            cursor: pointer;
+            background-color: rgb(255, 52, 52);
+            width: 90px;
+            border-radius: 4px;
+            height: 40px;
+            color: white;
+            font-weight: 500;
+        }
+    }
+}

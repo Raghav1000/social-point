@@ -1,0 +1,82 @@
+.sidebar {
+    flex: 20%;
+    height: 110vh;
+    border-radius: 4px;
+    margin-top: 19px;
+    overflow-y: scroll;
+    background: white;
+}
+
+.sidebar__container {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .sidebar__menu {
+        margin-top: 20px;
+        padding: 10px 20px 10px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 75%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        background-color: rgb(255, 247, 247);
+    }
+    .menu__option {
+        cursor: pointer;
+        padding: 15px;
+        display: flex;
+        h5 {
+            text-align: left;
+            margin-left: 20px;
+            color: rgb(77, 77, 77);
+            font-size: 0.95rem;
+            font-weight: 500;
+        }
+    }
+    .menu__option:hover {
+        background-color: rgb(255, 255, 255);
+        border-radius: 5px;
+    }
+    .separator {
+        height: 2px;
+        background: rgb(226, 226, 226);
+        margin-top: 20px;
+        width: 19vw;
+    }
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+// ::-webkit-scrollbar-track {
+//     background-color: rgb(235, 235, 235);
+// }
+// ::-webkit-scrollbar-thumb {
+//     background-color: rgb(172, 172, 172);
+// }
+.sidebar__friendList {
+    width: 100%;
+    h3 {
+        font-weight: 500;
+        font-size: 1rem;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .person__info {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 20px 0 0 20px;
+        img {
+            height: 40px;
+            margin-right: 20px;
+        }
+        h4 {
+            font-weight: 450;
+            color: rgb(66, 66, 66);
+        }
+    }
+}
